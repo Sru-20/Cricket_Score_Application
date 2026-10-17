@@ -1,0 +1,357 @@
+:root {
+  color-scheme: dark;
+  color: #e6eaf2;
+  background: #0a0d14;
+}
+
+body,
+.app-shell {
+  color: #e6eaf2;
+  background: #0a0d14;
+}
+
+.sidebar,
+.topbar,
+.panel,
+.stat-card,
+.date-button,
+.scoreboard,
+.detail-modal {
+  background: #111722;
+  border-color: #222b3a;
+}
+
+.sidebar {
+  background: #0e131d;
+}
+
+.topbar,
+.profile-row,
+.sidebar-divider,
+.players-head,
+.player-row,
+.bowler-row,
+.commentary-item,
+.match-tabs,
+.panel-footer,
+.score-team-row.secondary,
+.score-details,
+.detail-modal > header {
+  border-color: #222b3a;
+}
+
+.brand,
+.page-heading h1,
+.stat-value,
+.section-title,
+.score-team-info strong,
+.big-score,
+.player-runs,
+.player-row b,
+.detail-modal > header h2 {
+  color: #eef1f8;
+}
+
+.main-nav .nav-item,
+.team-link,
+.breadcrumbs b,
+.date-button,
+.match-team,
+.player-name,
+.bowler-figures {
+  color: #c3cad8;
+}
+
+.workspace-label,
+.breadcrumbs,
+.page-heading p,
+.eyebrow,
+.stat-label,
+.stat-foot,
+.section-header p,
+.series-name,
+.match-card-foot,
+.score-match-sub,
+.score-team-info small,
+.match-result,
+.score-details > div > span,
+.players-head,
+.player-row small,
+.bowler-copy span,
+.bowler-figures small,
+.economy small,
+.commentary-item p,
+.page-footer,
+.profile-copy small {
+  color: #8d98ab;
+}
+
+.workspace-label button,
+.profile-row > svg,
+.more-button,
+.filter-button {
+  color: #94a0b3;
+}
+
+.nav-item:hover,
+.team-link:hover,
+.nav-item.bottom-link:hover {
+  background: #151d2b;
+}
+
+.nav-item.active {
+  color: #b4aaff;
+  background: #211e37;
+}
+
+.nav-pill,
+.score-details .rr-chip {
+  color: #b8adff;
+  background: #211e37;
+}
+
+.team-dot,
+.avatar,
+.top-avatar {
+  background: #222b39;
+  color: #e3c0a8;
+}
+
+.upgrade-card {
+  background: #19172a;
+  border-color: #2c2845;
+}
+
+.upgrade-icon,
+.search-box kbd {
+  color: #b9adff;
+  background: #222035;
+}
+
+.upgrade-card p {
+  color: #a2a0b7;
+}
+
+.upgrade-ball {
+  border-color: #393153;
+  box-shadow: 0 0 0 9px #211e37, 0 0 0 19px #19172a;
+}
+
+.search-box {
+  border-color: #2a3342;
+  color: #929db0;
+  background: #0e131d;
+}
+
+.search-box kbd {
+  border-color: #343148;
+}
+
+.icon-button,
+.date-button svg:first-child,
+.date-button svg:last-child {
+  color: #a5afc0;
+}
+
+.date-button:hover {
+  border-color: #4b426f;
+  background: #171729;
+}
+
+.stat-card {
+  box-shadow: 0 2px 8px #00000012;
+}
+
+.live-icon {
+  color: #43d9a0;
+  background: #142b27;
+}
+
+.runs-icon {
+  color: #b4aaff;
+  background: #211e37;
+}
+
+.wicket-icon {
+  color: #f3af6e;
+  background: #2c211a;
+}
+
+.form-icon {
+  color: #f08d88;
+  background: #2b1d23;
+}
+
+.stat-change.positive {
+  color: #56d8a4;
+  background: #142b27;
+}
+
+.form-spark span {
+  background: #433c67;
+}
+
+.form-spark span:nth-child(10) {
+  background: #8f7cff;
+}
+
+.form-spark span:nth-child(n+11) {
+  background: #5a4d8d;
+}
+
+.momentum-dots {
+  color: #ad9eff;
+}
+
+.panel,
+.stat-card {
+  box-shadow: 0 2px 8px #00000016;
+}
+
+.count-badge {
+  color: #b7aaff;
+  background: #211e37;
+}
+
+.text-action,
+.scorecard-link button {
+  color: #b2a5ff;
+}
+
+.match-card {
+  border-color: #273142;
+  background: #141b27;
+}
+
+.match-card:hover {
+  border-color: #51477c;
+  background: #19182a;
+}
+
+.match-card.selected {
+  border-color: #796bd0;
+  background: #19182a;
+  box-shadow: 0 0 0 1px #373057 inset;
+}
+
+.match-card-foot,
+.match-card.selected .match-card-foot {
+  border-color: #252e3c;
+}
+
+.match-team b {
+  color: #e4e9f2;
+}
+
+.scoreboard {
+  background: #0e131d;
+}
+
+.secondary-score {
+  color: #b7c0cf;
+}
+
+.rr-chip {
+  color: #b8adff;
+  background: #211e37;
+}
+
+.rr-chip b {
+  color: #c7bcff;
+}
+
+.score-details > div > b,
+.economy b,
+.bowler-copy b {
+  color: #e0e5ee;
+}
+
+.ball-list i {
+  color: #bdc6d5;
+  background: #222b39;
+}
+
+.ball-list i.boundary-ball {
+  color: #55d9a4;
+  background: #142b27;
+}
+
+.player-row.active-player {
+  background: #171629;
+}
+
+.player-name i,
+.strike {
+  color: #b5a8ff;
+}
+
+.bowler-avatar {
+  color: #b9adff;
+  background: #211e37;
+}
+
+.over-ball {
+  color: #c0c8d6;
+  background: #222b39;
+}
+
+.over-ball.boundary {
+  color: #55d9a4;
+  background: #142b27;
+}
+
+.over-ball.wicket {
+  color: #f29a82;
+  background: #30201f;
+}
+
+.detail-modal {
+  box-shadow: 0 22px 70px #00000070;
+}
+
+.detail-table {
+  border-color: #273142;
+}
+
+.detail-table > span,
+.detail-table > b,
+.detail-table > span:not(:first-child) {
+  border-color: #222b3a;
+}
+
+.detail-table > span {
+  color: #8d98ab;
+}
+
+.detail-table > b {
+  color: #e0e5ee;
+}
+
+.detail-table > span:not(:first-child) {
+  color: #b8c1d0;
+}
+
+.modal-eyebrow,
+.modal-body h3,
+.commentary-time {
+  color: #929db0;
+}
+
+.scorecard-notice {
+  color: #c2b8ff;
+  background: #211e37;
+}
+
+.toast {
+  color: #eef1f8;
+  background: #202938;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
